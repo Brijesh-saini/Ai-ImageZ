@@ -1,17 +1,3 @@
-// Copyright 2025 PREM
-// 
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-// 
-//     https://www.apache.org/licenses/LICENSE-2.0
-// 
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 import React, { useContext } from 'react'
 import { assets } from '../assets/assets'
 import { delay, motion } from "motion/react"
@@ -52,7 +38,7 @@ const Header = () => {
       initial={{opacity:0, y:20}}
       animate={{opacity:1, y:0}}
       transition={{delay:0.6,duration:0.8}}
-      >Unleash boundless creativity with AI – Turn your thoughts into stunning visual art instantly. Just type, and watch the magic unfold.</motion.p>
+      >boundless creativity with AI – Turn your thoughts into stunning visual art instantly. Just type, and watch the magic unfold.</motion.p>
 
       <motion.button onClick={onClickHandler} className='sm:text-lg text-white bg-pink-700 w-auto mt-8 px-12 py-2.5 flex items-center gap-2 rounded-full'
       whileHover={{scale:1.05}}
